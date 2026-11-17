@@ -1,8 +1,8 @@
 {
-    "version":  "0.6.0",
-    "build":  4,
-    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.6.0/SadovodPrime-v0.6.0-arm64.apk",
-    "sha256":  "be57af6f280eec9c5a046e8c7bbcd6d7b8685453b66937379c13f56947d5aa6a",
-    "notes":  "Обновления теперь приходят сами. Шрифт Nunito, документы и согласия, помощник без имён должников.",
+    "version":  "0.7.0",
+    "build":  5,
+    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.7.0/SadovodPrime-v0.7.0-arm64.apk",
+    "sha256":  "f73b65b8bc953430964f991327823c0d4b19d0ad1d87850913457d52bc2afd82",
+    "notes":  "Мягкие цвета: спокойный фисташковый вместо кислотного салатового, приглушённые зелёный и красный, новая иконка.",
     "force":  false
 }
