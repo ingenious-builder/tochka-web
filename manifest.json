@@ -1,11 +1,11 @@
 {
-    "name": "sadovod",
-    "short_name": "sadovod",
+    "name": "SADOVOD PRIME",
+    "short_name": "SADOVOD",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Касса, склад и долги для продавца на рынке",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
