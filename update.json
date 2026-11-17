@@ -1,8 +1,8 @@
 {
-    "version":  "0.7.0",
-    "build":  5,
-    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.7.0/SadovodPrime-v0.7.0-arm64.apk",
-    "sha256":  "f73b65b8bc953430964f991327823c0d4b19d0ad1d87850913457d52bc2afd82",
-    "notes":  "Мягкие цвета: спокойный фисташковый вместо кислотного салатового, приглушённые зелёный и красный, новая иконка.",
+    "version":  "0.8.0",
+    "build":  6,
+    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.8.0/SadovodPrime-v0.8.0-arm64.apk",
+    "sha256":  "d6b7d2c61bc6c191975a0eb07a08dba56ba3d6f3c108db02fb5ba01271a744d6",
+    "notes":  "Конвертер валют: юань, доллар и ещё 17 валют по курсу ЦБ, можно поставить свой курс.",
     "force":  false
 }
