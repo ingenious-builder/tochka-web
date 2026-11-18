@@ -1,8 +1,8 @@
 {
-    "version":  "0.10.0",
-    "build":  8,
-    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.10.0/SadovodPrime-v0.10.0-arm64.apk",
-    "sha256":  "2870bac73221bdd9ff3a226823f8cd6542ab92497b0a9c8aac854d8c80ce0e34",
-    "notes":  "7 языков: русский, тоҷикӣ, oʻzbekcha, 中文, English, лезги, магӏарул. На главной — последние записи за сегодня.",
+    "version":  "0.11.0",
+    "build":  9,
+    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.11.0/SadovodPrime-v0.11.0-arm64.apk",
+    "sha256":  "bb907f4e33f1cfc7e4d06b7ec3cdbe59f041297afd089b35f2f814621e2b4807",
+    "notes":  "Кыргызча: добавлен кыргызский язык.",
     "force":  false
 }
