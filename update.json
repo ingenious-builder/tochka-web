@@ -1,8 +1,8 @@
 {
-    "version":  "0.11.0",
-    "build":  9,
-    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.11.0/SadovodPrime-v0.11.0-arm64.apk",
-    "sha256":  "bb907f4e33f1cfc7e4d06b7ec3cdbe59f041297afd089b35f2f814621e2b4807",
-    "notes":  "Кыргызча: добавлен кыргызский язык.",
+    "version":  "0.12.0",
+    "build":  10,
+    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.12.0/SadovodPrime-v0.12.0-arm64.apk",
+    "sha256":  "d12f8f4d6e902d6ae3c756e81c299df5d635e7ab474c149f7b87137902eaf02c",
+    "notes":  "Флаги в выборе языка.",
     "force":  false
 }
