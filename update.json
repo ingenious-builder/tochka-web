@@ -1,8 +1,8 @@
 {
-    "version":  "0.13.0",
-    "build":  11,
-    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.13.0/SadovodPrime-v0.13.0-arm64.apk",
-    "sha256":  "6d0b184d006aeded1f546aaa6fbdaaa661f69720ebfbcf1867480fca40021890",
-    "notes":  "Убран аварский язык.",
+    "version":  "0.14.0",
+    "build":  12,
+    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.14.0/SadovodPrime-v0.14.0-arm64.apk",
+    "sha256":  "7e79b8ff2d6a72a2ba972b7966c33910e528f6748796b7e929f04ba2c1cd33fd",
+    "notes":  "Несколько точек: нажмите на название точки на главной — переключайтесь между магазинами или добавьте новый. В статистике — итог по всем точкам.",
     "force":  false
 }
