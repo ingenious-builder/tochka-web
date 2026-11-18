@@ -1,8 +1,8 @@
 {
-    "version":  "0.8.0",
-    "build":  6,
-    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.8.0/SadovodPrime-v0.8.0-arm64.apk",
-    "sha256":  "d6b7d2c61bc6c191975a0eb07a08dba56ba3d6f3c108db02fb5ba01271a744d6",
-    "notes":  "Конвертер валют: юань, доллар и ещё 17 валют по курсу ЦБ, можно поставить свой курс.",
+    "version":  "0.9.0",
+    "build":  7,
+    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.9.0/SadovodPrime-v0.9.0-arm64.apk",
+    "sha256":  "ca851a55748e1d9cfde7d44984ee28c603f40b2216289dbccadc0df913ff09bf",
+    "notes":  "Карточки товара: сфотографируй товар — фон уберётся сам, 8 красивых стилей с ценой и размерами, отправка в WhatsApp и Telegram.",
     "force":  false
 }
