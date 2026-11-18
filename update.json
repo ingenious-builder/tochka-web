@@ -1,8 +1,8 @@
 {
-    "version":  "0.14.0",
-    "build":  12,
-    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.14.0/SadovodPrime-v0.14.0-arm64.apk",
-    "sha256":  "7e79b8ff2d6a72a2ba972b7966c33910e528f6748796b7e929f04ba2c1cd33fd",
-    "notes":  "Несколько точек: нажмите на название точки на главной — переключайтесь между магазинами или добавьте новый. В статистике — итог по всем точкам.",
+    "version":  "0.15.0",
+    "build":  13,
+    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.15.0/SadovodPrime-v0.15.0-arm64.apk",
+    "sha256":  "e4398064f1d880d0bf2bda2fa289c26426ea0a05bf1a53fd2c9ef69f8186027d",
+    "notes":  "Новые языки: Azərbaycanca, Tiếng Việt и снова МагӀарул мацӀ. Всего 10 языков.",
     "force":  false
 }
