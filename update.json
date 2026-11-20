@@ -1,8 +1,8 @@
 {
-    "version":  "0.16.0",
-    "build":  14,
-    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.16.0/SadovodPrime-v0.16.0-arm64.apk",
-    "sha256":  "5027c428ecbfc1fb763cc3b1b6806bff3252b80253f0a63e0de9c3c768b16bd7",
-    "notes":  "Даты теперь на языке приложения.",
+    "version":  "0.17.0",
+    "build":  15,
+    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.17.0/SadovodPrime-v0.17.0-arm64.apk",
+    "sha256":  "1a6aa2c121920ead6833824f3813183aadbf95fedaa525f093dcac3f9d62863a",
+    "notes":  "Что нового: карточку товара можно сохранить в каталог (на склад) с количеством и выбором точки — повтор не создаёт дубль, а добавляет штуки. У каждого товара свой штрихкод. Этикетки со штрихкодом, ценой и размером: 58×40, 40×30, 30×20 мм или лист A4 — печать с телефона и «Поделиться PDF»; на складе можно отметить несколько товаров и напечатать пачкой.",
     "force":  false
 }
