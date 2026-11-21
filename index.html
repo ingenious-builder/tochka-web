@@ -18,21 +18,53 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="SADOVOD PRIME — касса, склад и долги для продавца на рынке">
+  <meta name="description" content="Lavimo — касса, склад и долги для продавца на рынке">
+  <!-- цвет панели браузера = фон «Мягкого» (светлая / тёмная тема телефона) -->
+  <meta name="theme-color" content="#E7EBF1" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#2A2F38" media="(prefers-color-scheme: dark)">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="SADOVOD PRIME">
+  <meta name="apple-mobile-web-app-title" content="Lavimo">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>SADOVOD PRIME</title>
+  <title>Lavimo</title>
   <link rel="manifest" href="manifest.json">
+  <!-- Заставка до загрузки Flutter: фон «Мягкого» и знак над «lavimo», светлая/тёмная по теме телефона -->
+  <style>
+    html, body { margin: 0; height: 100%; background: #E7EBF1; }
+    #splash { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center;
+              background: #E7EBF1; transition: opacity .25s ease-out; z-index: 1; }
+    #splash img { width: 161px; height: auto; } /* картинка с полями 10 px */
+    #splash.done { opacity: 0; pointer-events: none; }
+    @media (prefers-color-scheme: dark) {
+      html, body, #splash { background: #2A2F38; }
+      #splash img { width: 160px; }
+    }
+  </style>
 </head>
 <body>
+  <div id="splash" aria-hidden="true">
+    <picture>
+      <source srcset="splash/logo_dark.png" media="(prefers-color-scheme: dark)">
+      <img src="splash/logo_light.png" alt="">
+    </picture>
+  </div>
+  <script>
+    // первый кадр Flutter нарисован — заставку плавно убрать (страховка — через 20 с в любом случае)
+    function hideSplash() {
+      var s = document.getElementById("splash");
+      if (!s) return;
+      s.classList.add("done");
+      setTimeout(function () { s.remove(); }, 300);
+    }
+    window.addEventListener("flutter-first-frame", hideSplash);
+    setTimeout(hideSplash, 20000);
+  </script>
   <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader
