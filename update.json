@@ -1,8 +1,8 @@
 {
-    "version":  "0.20.2",
-    "build":  20,
-    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.20.2/SadovodPrime-v0.20.2-arm64.apk",
-    "sha256":  "82916b12294aa63551e186f9d237de7f111cfbbed2621c2c789c36f440298cd6",
-    "notes":  "Что нового в 0.20.2: новый вид «Контраст» — белые плитки на более тёмном фоне, всё читается лучше на ярком свету и в тёмной теме. Кнопки и итоги собраны в группы с тонкой окантовкой: Главная, Касса, Склад, «Товар найден», генератор штрихкода. Поля ввода и выключатели стали заметнее.",
+    "version":  "0.20.3",
+    "build":  21,
+    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.20.3/SadovodPrime-v0.20.3-arm64.apk",
+    "sha256":  "13d3e0c9804cd44f4618529851f644b988623f388f1eeba4e8308f99463d212e",
+    "notes":  "Исправления вида на узких экранах",
     "force":  false
 }
