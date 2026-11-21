@@ -1,0 +1,19 @@
+Флаги в этой папке
+==================
+
+Источник: lipis/flag-icons — https://github.com/lipis/flag-icons (каталог flags/4x3), версия 7.2.3
+(новые файлы 21.11.2026 взяты с https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/flags/4x3/).
+Лицензия: MIT, (c) 2013 Panayiotis Lipiridis — текст в файле LICENSE рядом.
+Сами флаги государств — общественное достояние.
+
+Флаги языков (экран «Язык»): ru, gb, kg, uz, tj, az, cn, vn, dagestan.
+Флаги валют (конвертер, с 0.20.4) — валюта → файл:
+  RUB ru   CNY cn   USD us   EUR eu (флаг Евросоюза)   KZT kz   KGS kg   UZS uz   TRY tr
+  AED ae   BYN by   TJS tj   AMD am   GEL ge   AZN az   GBP gb   JPY jp   KRW kr   INR in
+  THB th   VND vn
+Добавлены 21.11.2026 для валют: us, eu, kz, tr, ae, by, am, ge, jp, kr, in, th (12 файлов, 16,7 КБ).
+
+dagestan.svg — флаг Республики Дагестан, нарисован своими силами (три полосы), не из flag-icons.
+
+Рисуются через flutter_svg (уже был в зависимостях), новых пакетов нет. Эмодзи-флаги не используем:
+на Windows и в вебе они показываются буквами.
