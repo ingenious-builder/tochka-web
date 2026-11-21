@@ -1,8 +1,8 @@
 {
-    "version":  "0.20.4",
-    "build":  22,
-    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.20.4/SadovodPrime-v0.20.4-arm64.apk",
-    "sha256":  "b2daf7a9194134003bbb63373b7918f91e6b1299c30b6fe269fc6a1664998c7d",
-    "notes":  "Флаги стран в конвертере валют",
+    "version":  "0.20.5",
+    "build":  23,
+    "apk":  "https://github.com/ingenious-builder/tochka-web/releases/download/v0.20.5/SadovodPrime-v0.20.5-arm64.apk",
+    "sha256":  "4200fd83bd137ed95670baf85d11a4581e3c4536e4d8e8cd4e4f10872f33a9b7",
+    "notes":  "Картинки в пустых экранах и шторках, обучение при первом запуске",
     "force":  false
 }
