@@ -34,6 +34,10 @@
 
   <title>Lavimo</title>
   <link rel="manifest" href="manifest.json">
+  <!-- Раньше начать загрузку: код приложения качается сразу, параллельно с загрузчиком Flutter;
+       соединение с сервером движка (CanvasKit) открывается заранее -->
+  <link rel="preload" href="main.dart.js" as="script">
+  <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
   <!-- Заставка до загрузки Flutter: фон «Мягкого» и знак над «lavimo», светлая/тёмная по теме телефона -->
   <style>
     html, body { margin: 0; height: 100%; background: #E7EBF1; }
