@@ -1,8 +1,8 @@
 {
-  "version": "0.20.6",
-  "build": 24,
-  "apk": "https://github.com/ingenious-builder/tochka-web/releases/download/v0.20.6/SadovodPrime-v0.20.6-arm64.apk",
-  "sha256": "1b83f89ff9b81665862d115ca993614e9c8214476aaed8405a6d0acbcfbb155d",
-  "notes": "Быстрее запуск и поиск по складу, меньше размер",
+  "version": "0.20.7",
+  "build": 25,
+  "apk": "https://github.com/ingenious-builder/tochka-web/releases/download/v0.20.7/SadovodPrime-v0.20.7-arm64.apk",
+  "sha256": "54f75e1796885337d64920f133933497062a38496d9c660c95dc5c1eaafd57f5",
+  "notes": "Свечение кнопок больше не обрезается краем шапки и шторок",
   "force": false
 }
